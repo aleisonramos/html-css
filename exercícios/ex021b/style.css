@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightgrey;
+}
+
+header {
+    background-color: rgb(27, 11, 85);
+    padding: 7px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.664);
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: auto;
+    color: yellowgreen;
+    text-align: center;
+}
+
+header a {
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    padding: 3px;
+}
+
+a:hover {
+    background-color: rgb(91, 54, 126);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+main {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 0px 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.301);
+}
+
+main h2 {
+    background-color: blue;
+    color: white;
+    text-decoration: underline rgb(74, 206, 41);
+    text-align: center;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+main > p {
+    background-color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+aside {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px -10px 0px -10px;
+}
+
+aside > p {
+    text-align: center;
+    padding: 5px;
+}
+
+aside a {
+    color: rgb(44, 230, 27);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.363);
+}
+
+footer p {
+    padding: 5px;
+}

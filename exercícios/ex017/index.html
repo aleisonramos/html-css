@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc (recomendado PX)
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %  (recomendado EM)
+            16px geralmente é igual a 1em
+
+            Usar sempre o EM pois é melhor.
+
+            weigth - peso
+            width - largura
+            height - altura
+            */
+            font-size: 1em;
+                       /* lighter normal bold bolder */
+        } 
+        h1 {
+            
+            /* shorthand
+
+            v=font-family: ;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; 
+
+            - font-style - font-weight - font-size - font-family */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }     
+        h2 {
+            font: bolder 2em sans-serif;
+        } 
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ad aspernatur nobis, exercitationem porro facere quas vitae fugit corporis itaque nihil numquam vel incidunt. Voluptatem vel consequuntur ullam voluptate expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae atque possimus incidunt quo dolore adipisci officiis exercitationem deleniti eum a, nisi alias, nostrum ea optio quas! Nemo recusandae magni animi?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta nemo odio, rerum, illum quaerat reiciendis dicta labore fugit adipisci doloribus incidunt provident ab? Esse fugiat aperiam dignissimos necessitatibus saepe.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maxime deserunt cum earum iusto tempora itaque nobis deleniti, odit consequuntur voluptate! Consequatur, saepe. Maxime quasi ea sint doloremque unde odio.</p>
+</body>
+</html>
