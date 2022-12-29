@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -27,9 +28,19 @@
             padding: 10px;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(101, 103, 105);
+        }
+
         thead, tfoot {
-            background-color: lightslategray;
+            background-color: rgb(101, 103, 105);
             color: white;
+        }
+            /* odd - impar // even - par // 2n ou 2n-1 */
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
 
         .numero {
@@ -173,5 +184,10 @@
         </tfoot>
         <caption>População das Unidades Federativas</caption>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero illo ipsa odit quibusdam sint provident dolores expedita ea. Aut, quia. Cumque placeat, asperiores accusamus saepe eaque consequatur cupiditate id aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maiores exercitationem delectus blanditiis laborum sequi! Adipisci odio, recusandae commodi unde incidunt ratione aut eligendi nam voluptatem delectus quibusdam dolore sunt? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure perspiciatis aspernatur expedita saepe autem neque quam quos aliquid dolor iste animi fugit, reiciendis, nobis nihil quaerat quisquam vel ea quas! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae deleniti quisquam modi consequuntur provident voluptate id fuga molestiae alias. Assumenda quidem libero nemo natus ipsum vero labore odio. Reiciendis, maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima explicabo optio assumenda quaerat, qui ipsum est cupiditate tempore reiciendis culpa eveniet, aspernatur dolorum animi? Alias culpa aut fugiat provident praesentium!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero illo ipsa odit quibusdam sint provident dolores expedita ea. Aut, quia. Cumque placeat, asperiores accusamus saepe eaque consequatur cupiditate id aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maiores exercitationem delectus blanditiis laborum sequi! Adipisci odio, recusandae commodi unde incidunt ratione aut eligendi nam voluptatem delectus quibusdam dolore sunt? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure perspiciatis aspernatur expedita saepe autem neque quam quos aliquid dolor iste animi fugit, reiciendis, nobis nihil quaerat quisquam vel ea quas! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae deleniti quisquam modi consequuntur provident voluptate id fuga molestiae alias. Assumenda quidem libero nemo natus ipsum vero labore odio. Reiciendis, maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima explicabo optio assumenda quaerat, qui ipsum est cupiditate tempore reiciendis culpa eveniet, aspernatur dolorum animi? Alias culpa aut fugiat provident praesentium!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero illo ipsa odit quibusdam sint provident dolores expedita ea. Aut, quia. Cumque placeat, asperiores accusamus saepe eaque consequatur cupiditate id aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maiores exercitationem delectus blanditiis laborum sequi! Adipisci odio, recusandae commodi unde incidunt ratione aut eligendi nam voluptatem delectus quibusdam dolore sunt? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure perspiciatis aspernatur expedita saepe autem neque quam quos aliquid dolor iste animi fugit, reiciendis, nobis nihil quaerat quisquam vel ea quas! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae deleniti quisquam modi consequuntur provident voluptate id fuga molestiae alias. Assumenda quidem libero nemo natus ipsum vero labore odio. Reiciendis, maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima explicabo optio assumenda quaerat, qui ipsum est cupiditate tempore reiciendis culpa eveniet, aspernatur dolorum animi? Alias culpa aut fugiat provident praesentium!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero illo ipsa odit quibusdam sint provident dolores expedita ea. Aut, quia. Cumque placeat, asperiores accusamus saepe eaque consequatur cupiditate id aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maiores exercitationem delectus blanditiis laborum sequi! Adipisci odio, recusandae commodi unde incidunt ratione aut eligendi nam voluptatem delectus quibusdam dolore sunt? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure perspiciatis aspernatur expedita saepe autem neque quam quos aliquid dolor iste animi fugit, reiciendis, nobis nihil quaerat quisquam vel ea quas! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae deleniti quisquam modi consequuntur provident voluptate id fuga molestiae alias. Assumenda quidem libero nemo natus ipsum vero labore odio. Reiciendis, maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima explicabo optio assumenda quaerat, qui ipsum est cupiditate tempore reiciendis culpa eveniet, aspernatur dolorum animi? Alias culpa aut fugiat provident praesentium!</p>
+    
 </body>
 </html>
