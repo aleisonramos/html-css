@@ -1,0 +1,81 @@
+body {
+    margin-top: 3%;
+    background-image: url('../img/logo.jpeg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+html {
+    font-family: tahoma;
+    font-size: 16px;
+    padding-left: 3px;
+}
+
+form {
+    width: 750px;
+    margin: 0 auto;
+}
+
+form div + div {
+    margin-top: 5px;
+}
+
+fieldset {
+    border-radius: 5px;
+    border: 2px solid #4283f2;
+    width: 650px;
+}
+
+input[type="checkbox"]{
+    float: left;
+    right: 10%;
+}
+
+input[type="text"]{
+    width:50%;
+}
+
+.labelval {
+    text-align: justify;
+    margin: 0 auto;
+    width: 93%;
+}
+
+.labelmed {
+    text-align: left;
+}
+
+legend{
+    background: #4283f2;
+    width:93%;
+    padding: 10px;
+    border-radius: 5px !important;
+    color: white;
+    text-align: center;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+label.intervalo {
+    margin-top:15px;
+    text-align: justify;
+    width: 90%;
+    color: #f33
+}
+
+button {
+    padding: 10px;
+    width:350px;
+    margin-top:15px;
+    background: #4283f2;
+    color: white;
+    border-radius: 5px !important;
+    border:30px;
+    text-align: center;
+    right: 5px
+}

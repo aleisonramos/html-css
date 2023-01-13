@@ -1,0 +1,47 @@
+body {
+    background-image: url('../img/logo.jpeg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+html {
+    font-family: tahoma;
+    font-size: 16px;
+    padding-left: 3px;
+}
+
+form {
+    width: 750px;
+    margin: 0 auto;
+}
+
+form div + div {
+    margin-top: 1px;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    margin-top:15px;
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.azul {
+    color: blue;
+}
+
+a {
+    text-align: center;
+    width: 90%;
+    display: inline-block;
+    font-size: xx-large;
+}
+
+img {
+    display: block;
+    width: 15%;
+    margin-left: auto;
+    margin-right: 50%;
+}

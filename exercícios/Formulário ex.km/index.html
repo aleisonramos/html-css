@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Medalha </title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <link rel="stylesheet" href="./styles/style.css">
+    <form name="formCadastro" onsubmit="return validarFormulario()" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required />
+        </div>
+        <div>
+            <label for="gresco">Grupo escoteiro:</label>
+            <input type="text" name="gresco" id="gresco" />
+        </div>
+        <div>
+            <label for="registro">Registro n°:</label>
+            <input type="text" name="registro" id="registro" />
+        <div>
+            <label>Data solicitação:</label>
+            <input type="date" name="datainicio" id="current_date" required/>
+        </div>
+        <div>
+            <label for="datapro">Data inscrição UEB:</label>
+            <input type="date" name="datapro" id="datapro" required/>
+        </div>
+        </p>
+        <fieldset>
+            <legend class="legend"> Medalhas já recebida </legend>
+            <div>
+                <label class="labelmed"><input type="checkbox" id="5anos" name="5anos" value="5anos">5 anos</label>
+                <label class="labelmed"><input type="checkbox" id="10anos" name="10anos" value="10anos">10 anos</label>
+                <label class="labelmed"><input type="checkbox" id="15anos" name="15anos" value="15anos">15 anos</label>
+                <label class="labelmed"><input type="checkbox" id="20anos" name="20anos" value="20anos">20 anos</label>
+                <label class="labelmed"><input type="checkbox" id="30anos" name="30anos" value="30anos">30 anos</label>
+                <label class="labelmed"><input type="checkbox" id="40anos" name="40anos" value="40anos">40 anos</label>
+            </div>
+        </fieldset>
+            </p>
+        <fieldset class="fieldset2">
+            <legend class="legend"> Validações </legend>
+            <div>
+                <input type="checkbox" id="val1" name="val1" value="val1" required>
+                <label class="labelval" for="val1"> O escotista tem uma atuação de destaque que ultrapassa o fiel cumprimento dos seus deveres prestando diferentes e
+                relevantes serviços a seu grupo escoteiro? </label>
+            </div>
+            </p>
+            <div>
+                <input type="checkbox" id="val2" name="val2" value="val2" required>
+                <label class="labelval" for="val2"> O escotista tem o parecer favorável da diretoria do grupo escoteiro e a mesma tem a “JUSTIFICATIVA DE PRETENSÃO”
+                destacando o motivo pelo qual você considera o agraciado merecedor da recompensa proposta. Contendo os dados relevantes,
+                incluindo os serviços e os fatos que levaram a pessoa/colaborador a ser considerada merecedora de receber a homenagem. </label>
+            </div>
+        </p>
+            <div>
+                <input type="checkbox" id="val3" name="val3" value="val3" required>
+                <label class="labelval" for="val3"> O escotista tem sua Ficha de Vida Escoteira devidamente lançada e atualizada no Paxtu contendo os dados relevantes da
+                vida escoteira, movimentação, cursos, serviços de destaques, elogios, diplomas recebidos, condecorações anteriores e
+                outros? </label>
+            </div>
+        </p>
+        </fieldset>
+                </p>
+            <div>
+                <label>Indicar caso haja :</label>
+                <label class="intervalo"> Quantidade de meses afastado do movimento durante o período informado acima (Data inscrição UEB/ Data solicitacao)
+                       - Considerar afastamento por mais de 60 dias ou participação inferior a 70% das atividades mensais do grupo.</label>
+            </div>
+            </p>
+            <div>
+                <label for="dataint">Meses a descontar:</label>
+                <input type="number" name="dataint" id="dataint" />
+            </div>
+            <div>
+                <button type="submit">Resultado</button>
+            </div>
+            </p>
+            <a href="https://escoteiros.org.br/wp-content/uploads/2020/07/003-2011_parte_2.pdf"
+            >Manual de Reconhecimentos e Condecorações - Escoteiros do Brasil</a>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
